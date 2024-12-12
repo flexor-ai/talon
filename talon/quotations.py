@@ -180,7 +180,7 @@ SPLITTER_PATTERNS = [
     re.compile(r'\S{3,10}, \d\d? \S{3,10} 20\d\d,? \d\d?:\d\d(:\d\d)?'
                r'( \S+){3,6}@\S+:'),
     # Sent from Samsung MobileName <address@example.com> wrote:
-    re.compile('Sent from Samsung.* \S+@\S+> wrote'),
+    re.compile(r'Sent from Samsung.* \S+@\S+> wrote'),
     RE_ANDROID_WROTE,
     RE_POLYMAIL
     ]
